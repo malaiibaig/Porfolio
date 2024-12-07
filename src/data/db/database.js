@@ -21,9 +21,9 @@ const database = {
       dribbble: "",
       github: "https://github.com/malaiibaig",
     },
-    brandImage: "/images/image.jpg",
-    aboutImage: "/images/image.jpg",
-    aboutImageLg: "/images/image.jpg",
+    brandImage: `${ process.env.PUBLIC_URL }/images/portfolio-image-1.jpg`,
+    aboutImage: `${ process.env.PUBLIC_URL }/images/image.jpg`,
+    aboutImageLg: `${ process.env.PUBLIC_URL }/images/image.jpg`,
     cvfile: "/files/Cv.pdf",
   },
   services: [
